@@ -422,3 +422,35 @@ thead th {
     min-width: 34rem;
   }
 }
+
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .page-shell,
+  .container,
+  main {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .hero-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-visual {
+    display: none;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
