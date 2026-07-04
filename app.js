@@ -2,7 +2,7 @@ const MATCHUP_DATA_PATH = "data/matchup_probabilities.csv";
 const INDICATOR_DATA_PATH = "data/team_efficiency_indicators.csv";
 
 // Replace "#" with your public data/methodology GitHub repository link later.
-const DATA_REPO_URL = "#";
+const DATA_REPO_URL = "https://github.com/mahmudhasanttu/fifa-scraped-match-data";
 
 const indicatorConfig = [
   {
